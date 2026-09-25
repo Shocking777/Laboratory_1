@@ -1,0 +1,318 @@
+[
+    {
+        "expression": "2+2",
+        "result": "4.0"
+    },
+    {
+        "expression": "2+3",
+        "result": "5.0"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6.0"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12.0"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5.0"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14.0"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3.0"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15.6"
+    },
+    {
+        "expression": "2--2",
+        "result": "4.0"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1.0"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3.0"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6.0"
+    },
+    {
+        "expression": "2+3",
+        "result": "5.0"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6.0"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12.0"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5.0"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14.0"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3.0"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15.6"
+    },
+    {
+        "expression": "2--2",
+        "result": "4.0"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1.0"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3.0"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6.0"
+    },
+    {
+        "expression": "2+23",
+        "result": "25.0"
+    },
+    {
+        "expression": "2+3",
+        "result": "5.0"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6.0"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12.0"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5.0"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14.0"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3.0"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15.6"
+    },
+    {
+        "expression": "2--2",
+        "result": "4.0"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1.0"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3.0"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6.0"
+    },
+    {
+        "expression": "2+3",
+        "result": "5.0"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6.0"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12.0"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5.0"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14.0"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3.0"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15.6"
+    },
+    {
+        "expression": "2--2",
+        "result": "4.0"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1.0"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3.0"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6.0"
+    },
+    {
+        "expression": "2+3",
+        "result": "5.0"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6.0"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12.0"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5.0"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14.0"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3.0"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15.6"
+    },
+    {
+        "expression": "2--2",
+        "result": "4.0"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1.0"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3.0"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6.0"
+    },
+    {
+        "expression": "2+3",
+        "result": "5"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15"
+    },
+    {
+        "expression": "2--2",
+        "result": "4"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6"
+    },
+    {
+        "expression": "2+3",
+        "result": "5"
+    },
+    {
+        "expression": "10 - 4",
+        "result": "6"
+    },
+    {
+        "expression": "3 * 4",
+        "result": "12"
+    },
+    {
+        "expression": "10 / 2",
+        "result": "5"
+    },
+    {
+        "expression": "2 + 3 * 4",
+        "result": "14"
+    },
+    {
+        "expression": "-5 + 2",
+        "result": "-3"
+    },
+    {
+        "expression": "5.2 * 3",
+        "result": "15"
+    },
+    {
+        "expression": "2--2",
+        "result": "4"
+    },
+    {
+        "expression": "10 % 3",
+        "result": "1"
+    },
+    {
+        "expression": "10 // 3",
+        "result": "3"
+    },
+    {
+        "expression": "2 + 2 * 2",
+        "result": "6"
+    }
+]
