@@ -52,6 +52,10 @@ def test_floor_division():
     assert calc("10 // 3") == 3
 
 
+def test_remainder_of_a_negative_number():
+    assert calc("-112%3") == 2.0
+
+
 def test_invalid_character():
     with pytest.raises(ToolkitError):
         calc("2 + a")

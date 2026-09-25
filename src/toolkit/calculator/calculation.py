@@ -28,16 +28,16 @@ def calculate(rpn: list) -> int|Decimal:
             elif token == "*":
                 stack.append(num_1 * num_2)
             elif token == "/":
-                if int(num_2) == 0:
+                if num_2 == 0:
                     raise ToolkitError("Деление на ноль")
                 stack.append(num_1 / num_2)
             elif token == "%":
-                if int(num_2) == 0:
+                if num_2 == 0:
                     raise ToolkitError("Деление на ноль")
-                stack.append(num_1 % num_2)
+                stack.append(float(num_1) % float(num_2))
             elif token == "@":
-                if int(num_2) == 0:
+                if num_2 == 0:
                     raise ToolkitError("Деление на ноль")
-                stack.append(num_1 // num_2)
+                stack.append(float(num_1) // float(num_2))
 
     return stack[0]

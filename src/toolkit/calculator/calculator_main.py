@@ -6,7 +6,7 @@ from toolkit.calculator.tokenization import tokenize
 from toolkit.calculator.validation import validate_input, validate_rpn
 
 
-def calc(exp: str) -> int|Decimal:
+def calc(exp: str) -> int|Decimal|float:
     """
     Вычисляет результат математического выражения.
     Args:
