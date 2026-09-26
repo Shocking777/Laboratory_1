@@ -13,7 +13,7 @@ def validate_input(exp: str) -> None:
     if not exp.strip():
         raise ToolkitError("Пустое выражение")
     for i in exp:
-        if i not in ADDITIVE_OPERATORS+MULTIPLICATIVE_OPERATORS+"0123456789"+"()"+" "+".":
+        if i not in ADDITIVE_OPERATORS+MULTIPLICATIVE_OPERATORS+"0123456789"+" "+".":
             raise ToolkitError("Недопустимый символ")
 
     tokens = exp.split()

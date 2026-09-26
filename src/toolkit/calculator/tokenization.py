@@ -47,7 +47,7 @@ def tokenize(exp: str) -> list  :
     for i in range(len(exp)):
         if exp[i] == "-":
             if (previous in ADDITIVE_OPERATORS + MULTIPLICATIVE_OPERATORS or
-                previous == "" or previous == "("):
+                previous == ""):
                 new_exp += " -"
             else:
                 new_exp += " - "
@@ -63,8 +63,7 @@ def tokenize(exp: str) -> list  :
     for i in range(len(exp)):
         if exp[i] == "+":
             if (previous == "" or
-                previous in ADDITIVE_OPERATORS + MULTIPLICATIVE_OPERATORS or
-                previous == "("):
+                previous in ADDITIVE_OPERATORS + MULTIPLICATIVE_OPERATORS):
                 new_exp += " +"
             else:
                 new_exp += " + "
@@ -75,9 +74,6 @@ def tokenize(exp: str) -> list  :
             previous = exp[i]
     exp = new_exp
 
-    exp = exp.replace("(", " ( ")
-    exp = exp.replace(")", " ) ")
-    exp = exp.replace("(+", "(")
 
     for operator in ADDITIVE_OPERATORS+MULTIPLICATIVE_OPERATORS:
         if operator != "-" and operator != "+":
@@ -87,13 +83,11 @@ def tokenize(exp: str) -> list  :
         if cif(token):
             rpn.append(token)
         if token in ADDITIVE_OPERATORS:
-            while (len(oper_stack) > 0 and
-                   oper_stack[-1] != "("):
+            while len(oper_stack) > 0:
                 rpn.append(oper_stack.pop())
             oper_stack.append(token)
         elif token in MULTIPLICATIVE_OPERATORS:
             if (len(oper_stack) == 0 or
-                oper_stack[-1] == "(" or
                 oper_stack[-1] in ADDITIVE_OPERATORS):
                 oper_stack.append(token)
             else:
