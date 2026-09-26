@@ -1,10 +1,10 @@
 import json
 from pathlib import Path
 
-HISTORY_PATH = Path(__file__).parent / "history.json"
+history_path = Path(__file__).parent / "history.json"
 
 
-with open(HISTORY_PATH, "r", encoding="utf-8") as file:
+with open(history_path, "r", encoding="utf-8") as file:
     history = json.load(file)
 
 def save(task: str, result: int) -> None:
@@ -18,5 +18,5 @@ def save(task: str, result: int) -> None:
         "expression": task,
         "result": str(result),
     })
-    with open(HISTORY_PATH, "w", encoding="utf-8") as file:
+    with open(history_path, "w", encoding="utf-8") as file:
         json.dump(history, file, ensure_ascii=False, indent=4)

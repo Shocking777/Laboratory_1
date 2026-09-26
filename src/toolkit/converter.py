@@ -3,10 +3,10 @@ from pathlib import Path
 
 from toolkit.errors import ToolkitError
 
-CONFIG_PATH = Path(__file__).parent / "configuration.json"
+config_path = Path(__file__).parent / "configuration.json"
 
 
-with open(CONFIG_PATH, "r", encoding="utf-8") as file:
+with open(config_path, "r", encoding="utf-8") as file:
     config =  json.load(file)
 
 
@@ -15,7 +15,7 @@ def conv(value:float,from_unit:str,to_unit:str) -> float|int:
     Конвертирует число из одной единицы измерения в другую.
     Args:
         value (float): Конвертируемое число.
-        from_unit (str): Иходная единица измерения.
+        from_unit (str): Исходная единица измерения.
         to_unit (str): Конечная единица измерения.
 
     Returns:
